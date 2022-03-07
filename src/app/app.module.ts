@@ -9,7 +9,6 @@ import {MatIconModule} from "@angular/material/icon";
 
 import {AppComponent} from './app.component';
 import {HomeComponent} from './home.component';
-import {TableBasicExampleComponent} from './table-basic-example.component';
 import {FilmListeComponent} from './film-liste.component';
 import {FilmDetailsComponent} from './film-details.component';
 import {BadgeAnneePipe} from './badge-annee.pipe';
@@ -22,7 +21,6 @@ import {MatButtonModule} from "@angular/material/button";
   declarations: [
     AppComponent,
     HomeComponent,
-    TableBasicExampleComponent,
     FilmListeComponent,
     FilmDetailsComponent,
     BadgeAnneePipe,

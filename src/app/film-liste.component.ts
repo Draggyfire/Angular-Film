@@ -4,7 +4,7 @@ import { FILMS,Film } from "./film";
 @Component({
   selector: 'app-film-liste',
   template: `
-    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8" style="margin: auto;width: 500px">
       <!--- Note that these columns can be defined in any order.
             The actual rendered columns are set as a property on the row definition" -->
 

@@ -4,8 +4,7 @@ import {Component, Input, OnInit} from '@angular/core';
   selector: 'app-film-rating',
   template: `
     <div>
-      <button mat-icon-button color="accent"
-              *ngFor="let ratingId of ratingArray; index as i">
+      <button mat-icon-button color="accent" *ngFor="let ratingId of ratingArray; index as i">
         <mat-icon>
           {{ iconStatus(i) }}
         </mat-icon>
@@ -17,8 +16,7 @@ import {Component, Input, OnInit} from '@angular/core';
   styles: [':host {display: flex; flex-direction: row; justify-content: flex-start; align-items: center;}']
 })
 export class FilmRatingComponent implements OnInit {
-  @Input('rating') rating: number = 0;
-
+  @Input() rating: number = 0;
   totalStar: number = 5;
   ratingArray: number[] = [];
 

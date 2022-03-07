@@ -5,8 +5,7 @@ import {Film} from "./film";
   selector: 'app-film-details',
   template: `
     <p>
-      <app-film-card [item]="film"></app-film-card>
-      <span matBadge="{{film.year|badgeAnnee}}" matBadgeSize="small" matBadgeOverlap="false" matBadgeColor="accent">{{film.year}}</span>
+      <app-film-card *ngIf="film" [item]="film"></app-film-card>
     </p>
   `,
   styles: [

@@ -15,7 +15,7 @@ export class BadgeAnneePipe implements PipeTransform {
     console.log(value)
     if(current.year()-film.year()>5){
       return 5
-    }else if (current.year()-film.year()< -5){
+    }else if (current.year()-film.year()>1){
       return -5
     }else return 1
   }
