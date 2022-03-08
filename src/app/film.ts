@@ -35,5 +35,14 @@ export const FILMS:Film[]= [
     rating:5,
     director:"Ayoko Kôno",
     actors:["Kazuto Kirigaya" , "Asuna Yuuki"]
+  },
+  {
+    title:"Danmachi : Arrow of the Orion",
+    year:2019,
+    affiche: "https://images.cinefil.com/movies/1065385.webp",
+    entrees: 86786785,
+    rating:5,
+    director:"Katsushi Sakurabi",
+    actors:["Bell Cranel", "Hestia", "Aiz Wallenstein", "Artemis"]
   }
 ]
