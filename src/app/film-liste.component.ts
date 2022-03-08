@@ -4,10 +4,9 @@ import { FILMS,Film } from "./film";
 @Component({
   selector: 'app-film-liste',
   template: `
-    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8" style="margin: auto;width: 500px;border: solid darkgray">
+    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8" style="margin: auto;height: auto;width: 500px;border: solid darkgray;position: absolute">
       <!--- Note that these columns can be defined in any order.
             The actual rendered columns are set as a property on the row definition" -->
-
       <!-- Position Column -->
       <ng-container matColumnDef="title">
         <th mat-header-cell *matHeaderCellDef> Title </th>

@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-home',
   template: `
     <div>
-      <app-film-liste></app-film-liste>
+      <app-film-liste style="display: flex;flex-direction: row"></app-film-liste>
     </div>
   `,
   styles: [

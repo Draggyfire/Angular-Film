@@ -4,9 +4,9 @@ import {Film} from "./film";
 @Component({
   selector: 'app-film-details',
   template: `
-    <p>
+    <div>
       <app-film-card *ngIf="film" [item]="film"></app-film-card>
-    </p>
+    </div>
   `,
   styles: [
   ]

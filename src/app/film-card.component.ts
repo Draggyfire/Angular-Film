@@ -4,8 +4,8 @@ import {Film} from "./film";
 @Component({
   selector: 'app-film-card',
   template: `
-        <mat-card style="display: block;width: 350px;margin:auto;text-align: center;border: solid ghostwhite">
-          <mat-card-header style="margin: 0 0 0 60px">
+        <mat-card style="display: block;width: 350px;margin: 0px 500px 0px 500px;text-align: center;border: solid ghostwhite">
+          <mat-card-header style="margin:0 0 0 60px">
             <mat-card-title style="text-align: center">
               <span matBadge="{{item.year|badgeAnnee}}" matBadgeSize="small" matBadgeOverlap="false" matBadgeColor="accent">{{item.year}}</span>
             </mat-card-title>
