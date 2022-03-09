@@ -44,5 +44,18 @@ export const FILMS:Film[]= [
     rating:5,
     director:"Katsushi Sakurabi",
     actors:["Bell Cranel", "Hestia", "Aiz Wallenstein", "Artemis"]
+  },
+  {
+    title:"Sword Art Online - Ordinal Scale",
+    year:2017,
+    affiche: "https://fr.web.img2.acsta.net/pictures/17/01/26/16/34/219690.jpg",
+    entrees: 1564564,
+    rating:5,
+    director:"Tomohiko Itō",
+    actors:["Kazuto Kirigaya" , "Asuna Yuuki"]
   }
-]
+].sort(function (a,b){
+  if(a.title < b.title) return -1;
+  if(a.title > b.title) return 1;
+  return 0;
+})
