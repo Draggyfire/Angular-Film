@@ -25,7 +25,7 @@ export const FILMS:Film[]= [
     entrees: 1947344,
     rating:4,
     director:"Kenji Nagasaki",
-    actors:["Izuku Midoriya", "Katsuki Bakugo", "All Might", "Momo Yaoyorozu"]
+    actors:["Izuku Midoriya", "Katsuki Bakugo", "Momo Yaoyorozu"]
   },
   {
     title:"Sword Art Online - Progressive",
